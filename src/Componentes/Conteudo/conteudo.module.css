@@ -1,0 +1,25 @@
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0;
+    padding-bottom: 0;
+    background-image: linear-gradient(135deg, #FFE1EF 0%, #F3C5DB 100%);
+}
+
+.conteudo__imagem__logo{
+    width: 20%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo__imagem__logo{
+        width: 40%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__imagem__logo{
+        width: 55%;
+    }
+}
